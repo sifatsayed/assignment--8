@@ -1,0 +1,24 @@
+.team-container img{
+    height: 100px ;
+    width: 100px ;
+}
+.team-container{
+    border: 1px solid red ;
+    margin: 10px;
+    padding: 10px;
+    height: 250px;
+    width: 200px;
+    text-align: center;
+}
+.main-button{
+    height: 30px;
+    width: 90px ;
+    background-color: rgb(100, 100, 236);
+    border: none;
+    border-radius:5px ;
+    color: white;
+}
+.teams{
+   display:grid !important ;
+   grid-template-columns: repeat(3 , 1fr);
+}
